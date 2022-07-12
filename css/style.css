@@ -76,3 +76,34 @@
     text-align: center;
     letter-spacing: 0.03em;
  }
+
+
+ /* HERO */
+
+.hero-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.24;
+    color: var(--black-color);
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.hero-btn {
+width: 426px;
+height: 100px;
+border-radius: 10px;
+background: var(--titile-btn-color);
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
+
+
+/* SKILLS */
