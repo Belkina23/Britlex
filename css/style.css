@@ -62,11 +62,8 @@
  }
 
  .header-btn {
-    position: absolute;
     width: 312px;
     height: 70px;
-    left: 1157px;
-    top: 55px;
     border: 2px solid var(--titile-btn-color);
     border-radius: 10px;
     color: var(--black-color);
@@ -107,3 +104,4 @@ color: var(--white-color);
 
 
 /* SKILLS */
+
