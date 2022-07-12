@@ -105,3 +105,40 @@ color: var(--white-color);
 
 /* SKILLS */
 
+.skills-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--black-color);
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-item {
+    background: var(--skils-bagraund-color);
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: var(--titile-btn-color);
+}
+
+.skills-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.skills-btn {
+    width: 218px;
+    height: 60px;
+    border-radius: 10px;
+    background: var(--titile-btn-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--white-color);
+}
