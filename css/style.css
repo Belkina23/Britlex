@@ -142,3 +142,34 @@ color: var(--white-color);
     line-height: 1.5;
     color: var(--white-color);
 }
+
+
+/* About Us */
+
+.about-us-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--black-color);
+}
+
+.about-us-text {
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.about-us-list {
+    list-style: none;
+}
+
+.item-nomber {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--nomber-about-as-color);
+}
+
+.item-text {
+    font-size: 20px;
+    line-height: 1.5;
+}
