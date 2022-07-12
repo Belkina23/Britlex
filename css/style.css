@@ -7,6 +7,7 @@
 Цвет  per month #546269
 Цвет цыфр в About Us #2A3246
 Фон блоков Skils #F5F5F5
+Фон блоков с ценой #EEEEEE
 
 Основные шрифты макета:
 'Poppins' 400 (основной вес), 500, 600
@@ -21,6 +22,7 @@
 --per-month-color: #546269;
 --nomber-about-as-color: #2A3246;
 --skils-bagraund-color: #F5F5F5;
+--priccing-price-color: #EEEEEE;
  }
 
  body {
@@ -171,5 +173,39 @@ color: var(--white-color);
 
 .item-text {
     font-size: 20px;
+    line-height: 1.5;
+}
+
+
+/* pricing */
+
+.pricing-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--black-color);
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-text {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.pricing-price {
+    background: var(--priccing-price-color);
+}
+
+.item-prise {
+    font-size: 24px;
+    line-height: 1.5;
+    columns: var(--titile-btn-color);
+}
+
+.text-item {
+    font-size: 18px;
     line-height: 1.5;
 }
