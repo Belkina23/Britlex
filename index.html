@@ -8,6 +8,7 @@
 		<script src="main.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
 <link rel="stylesheet" href="./css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 		
@@ -17,36 +18,44 @@
 	<body>
 		<!--header-->
 		<header class="header">
+			<div class="conteiner header-div"> 
 			<nav class="header-nav">
 				<a class="logo" href="./index.html#r1"><span class="logo-first">Brit</span><span class="logo-end">lex</span></a>
 				<ul class="header-list">
-					<li><a class="header-link" href="./index.html">Home</a></li>
-					<li><a class="header-link" href="./index.html#r2">Skills</a></li>
-					<li><a class="header-link" href="./index.html#r3">About Us</a></li>
-					<li><a class="header-link" href="./index.html#r4">Pricing</a></li>
-					<li><a class="header-link" href="./index.html#r5">Contacts</a></li>
+					<li class="item"><a class="header-link" href="./index.html">Home</a></li>
+					<li class="item"><a class="header-link" href="./index.html#r2">Skills</a></li>
+					<li class="item"><a class="header-link" href="./index.html#r3">About Us</a></li>
+					<li class="item"><a class="header-link" href="./index.html#r4">Pricing</a></li>
+					<li class="item"><a class="header-link" href="./index.html#r5">Contacts</a></li>
 				</ul>
 			</nav>
-			<button type="button" class="header-btn">Let&#10076;s Talk</button>
+			<button type="button" class="header-btn">Let&#10076;s Talk</button></div>
 		</header>
 
 		<!--main-->
 		<main>
 			<!--hero-->
-			<section class="hero">
-				<h1 class="hero-title">Learn Any Foreign Language</h1>
+			<section class="section">
+				<div class="conteiner hero">
+					<div>
+				<h1 class="hero-title">Learn <br> Any Foreign Language</h1>
 				<p class="hero-text">With our teachers who write a program for each student, 
 				you will be able to make your first sketch after the
 				first lesson.</p>
 				<button type="button" class="hero-btn">Get started</button>
+			</div>
+				<div class="img-hero">
 				<img src="./img/01languages.jpg" alt="girl" width="654" />
+			</div>
+			</div>
 			</section>
 
 			<!--skills-->
-			<section class="skills">
+			<section class="section">
+				<div class="conteiner skils">
 				<h2 class="skills-title" id="r2">Skills</h2>
 				<ul class="skills-list">
-					<li class="skills-item">
+					<li class="item">
 						<img src="./img/1goals-bro.jpg" alt="speaking man" width="390" />
 						<h3 class="item-title">Speaking</h3>
 						<p class="skills-text">Improve your English skills and confidence. 
@@ -56,14 +65,14 @@
 							resources – all designed for adult language learners.</p>
 							<button type="button" class="skills-btn">Learn more</button>
 					</li>
-					<li class="skills-item">
+					<li class="item">
 						<img src="./img/2goals-bro.jpg" alt="writing mashin" width="390" />
 						<h3 class="item-title">Writing</h3>
-						<p>One of the most important and extensive areas of natural science, the science that studies substances,
+						<p class="skills-text">One of the most important and extensive areas of natural science, the science that studies substances,
 							also their composition</p>
 							<button type="button" class="skills-btn">Learn more</button>
 					</li>
-					<li class="skills-item">
+					<li class="item">
 						<img src="./img/3goals-bro.jpg" alt="Reading man" width="390" />
 						<h3 class="item-title">Reading</h3>
 						<p class="skills-text">Perception and response actions of the user resulting from the use and/or upcoming use of the product,
@@ -71,17 +80,24 @@
 							<button type="button" class="skills-btn">Learn more</button>
 					</li>
 					<li class="skills-item">
+						<div>
 						<img src="./img/4goals-bro.jpg" alt="Listening lessons" width="408" />
+					</div>
+					<div>
 						<h3 class="item-title">Listening</h3>
 						<p class="skills-text">Here you can find activities to practise your listening skills. Listening will help you to improve your
 							understanding</p>
 							<button type="button" class="skills-btn">Learn more</button>
+						</div>
 					</li>
 				</ul>
+			</div>
 			</section>
 
 			<!--About Us-->
-			<section class="about-us">
+			<section class="section">
+				<div class="conteiner about-us">
+					<div>
 				<h2 class="about-us-title" id="r3">About Us</h2>
 				<p class="about-us-text">The model offers a framework for discussing problems related to the user's experience, as well as possible
 					ways and means of solving them. Application development begins at the top level (strategy), where the future
@@ -92,11 +108,15 @@
 					<li class="about-us-item"><span class="item-nomber">18</span><span class="item-text">Teachers</span></li>
 					<li class="about-us-item"><span class="item-nomber">6</span><span class="item-text">Foreign languages</span></li>
 				</ul>
+			</div>
+			<div class="img-about-us">
 				<img src="./img/aboutus.jpg" alt="chempions" width="540" />
+			</div>
+			</div>
 			</section>
 
 			<!--Pricing-->
-			<section class="pricing">
+			<section class="section pricing">
 				<h2 class="pricing-title" id="r4">Pricing</h2>
 				<ul class="pricing-list">
 					<li class="pricing-item">
@@ -124,7 +144,7 @@
 			</section>
 
 			<!--Contact Us-->
-			<section class="contact-us">
+			<section class="section contact-us">
 				<h2 class="contact-us-title" id="r5">Contact Us</h2>
 				<p class="contact-us-text">Discover your current English level by taking our free online English test. Sign up to our newsletter for
 					learning tips and free resources</p>

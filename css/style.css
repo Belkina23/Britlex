@@ -32,10 +32,46 @@
     line-height: 1.5;
     color: var(--text-color);
     background-color: var(--white-color);
+    margin: 0;
  }
 
+ p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+ }
+
+ ul, ol {
+    margin: 0;
+    padding-left: 0;
+ }
+ button {
+    cursor: pointer;
+ }
+
+ img {
+    display: block;
+ }
+
+ .conteiner {
+width: 1338px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: auto;
+margin-right: auto;
+ }
+
+ .section {
+    padding-bottom: 180px;
+ }
 
  /* HEADER */
+.header-div {
+display: flex;
+align-items: center;
+}
+
+.header-nav {
+    display: flex;
+}
 
  .logo {
     font-size: 36px;
@@ -43,6 +79,7 @@
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-right: 236px;
  }
 
  .logo-first {
@@ -56,11 +93,21 @@
  .header-list {
     list-style: none;
     font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    padding-top: 75px;
+    padding-bottom: 75px;
+ }
+
+ .header-list .item + .item {
+    margin-left: 50px;
  }
 
  .header-link {
     color: var(--titile-btn-color);
     text-decoration: none;
+    padding-top: 75px;
+    padding-bottom: 75px;
  }
 
  .header-btn {
@@ -72,22 +119,33 @@
     background-color: var(--white-color);
     text-align: center;
     letter-spacing: 0.03em;
+    margin-left: auto;
  }
 
 
  /* HERO */
+
+ .hero {
+    display: flex;
+ }
+
+ .img-hero {
+    margin-left: 144px;
+ }
 
 .hero-title {
     font-weight: 600;
     font-size: 64px;
     line-height: 1.24;
     color: var(--black-color);
+    margin-bottom: 40px;
 }
 
 .hero-text {
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
+    margin-bottom: 60px;
 }
 
 .hero-btn {
@@ -105,19 +163,50 @@ color: var(--white-color);
 
 /* SKILLS */
 
+.skils {
+    outline: 1px solid tomato;
+}
+
 .skills-title {
     font-weight: 600;
     font-size: 48px;
     line-height: 72px;
     color: var(--black-color);
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 .skills-list {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.skills-list .item, .skills-item {
+    background: var(--skils-bagraund-color);
+    display: flex;
+    flex-direction: column;
+    padding: 32px 18px;
+    flex-basis: calc(100% / 3 - 60px);
+    margin-right: 30px;
+    margin-bottom: 30px;  
+    border-radius: 10px;  
+}
+
+.skills-list .item:nth-child(3) {
+    margin-right: 0;
 }
 
 .skills-item {
     background: var(--skils-bagraund-color);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 32px 56px 32px 18px;
+    border-radius: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    flex-grow: 0.4;
 }
 
 .item-title {
@@ -125,11 +214,13 @@ color: var(--white-color);
     font-size: 30px;
     line-height: 45px;
     color: var(--titile-btn-color);
+    padding-bottom: 20px;
 }
 
 .skills-text {
     font-size: 16px;
     line-height: 1.5;
+    padding-bottom: 30px;
 }
 
 .skills-btn {
@@ -138,25 +229,45 @@ color: var(--white-color);
     border-radius: 10px;
     background: var(--titile-btn-color);
     font-weight: 500;
+    font-size: 20px;
+    line-height: 0.6;
     color: var(--white-color);
 }
 
 
 /* About Us */
 
+.about-us {
+    display: flex;
+}
+
 .about-us-title {
     font-weight: 600;
     font-size: 48px;
     line-height: 1.5;
     color: var(--black-color);
+    margin-bottom: 60px;
 }
 
 .about-us-text {
+    font-size: 20px;
     line-height: 1.8;
+    margin-bottom: 30px;
 }
 
 .about-us-list {
     list-style: none;
+    display: flex;
+    width: 555px;
+    margin-left: 50px;
+}
+
+.about-us-item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(100% / 3 - 131px);
+    margin-right: 131px;
+    text-align: center;
 }
 
 .item-nomber {
@@ -164,6 +275,11 @@ color: var(--white-color);
     font-size: 48px;
     line-height: 1.5;
     color: var(--nomber-about-as-color);
+    margin-bottom: 6px;
+}
+
+.img-about-us {
+    margin-left: 146px;
 }
 
 
