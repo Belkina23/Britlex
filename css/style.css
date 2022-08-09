@@ -26,8 +26,8 @@
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: "Poppins", serif;
@@ -308,16 +308,15 @@ img {
 	font-size: 20px;
 	line-height: 30px;
 	color: var(--white-color);
-    border: 2px solid var(--titile-btn-color);
+	border: 2px solid var(--titile-btn-color);
 	padding: 15px 52px;
-    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), 
-    color 300ms cubic-bezier(0.4, 0, 0.2, 1),
-	border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+		border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .test-button:hover,
 .test-button:focus {
-    background-color: var(--white-color);
+	background-color: var(--white-color);
 	color: var(--titile-btn-color);
 	border-color: var(--titile-btn-color);
 	border: 2px solid var(--titile-btn-color);
@@ -451,6 +450,49 @@ img {
 	margin-bottom: 30px;
 }
 
+.mail-form {
+	display: flex;
+	gap: 30px;
+	margin-left: auto;
+}
+
+input {
+	padding: 20px 30px;
+	width: 425px;
+	outline: none;
+	border: 1px solid #8f95a5;
+	border-radius: 10px;
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: #8F95A5;
+
+}
+
+.form-button {
+	padding: 20px 56.04px;
+	width: 312px;
+	height: 70px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background: #263238;
+	border-radius: 10px;
+	border: 0;
+	transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover, 
+.form-button:focus {
+	background-color: var(--white-color);
+	color: var(--titile-btn-color);
+	border-color: var(--titile-btn-color);
+	border: 2px solid var(--titile-btn-color);
+  }
+
 /* footer-item */
 
 .footer > .conteiner {
@@ -469,14 +511,14 @@ img {
 }
 
 .footer-link {
-    position: relative;
+	position: relative;
 	text-decoration: none;
 	color: var(--text-color);
-    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover {
-    color: var(--titile-btn-color);
+	color: var(--titile-btn-color);
 }
 
 .footer-link::after {
@@ -496,4 +538,3 @@ img {
 .footer-link:hover::after {
 	transform: scaleX(1);
 }
-
