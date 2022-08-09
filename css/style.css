@@ -165,9 +165,14 @@ img {
 
 /* HERO */
 
+
 .hero {
 	display: flex;
 }
+
+.animate__animated.animate__bounce {
+	--animate-duration: 2s;
+  }
 
 .img-hero {
 	margin-left: 144px;
