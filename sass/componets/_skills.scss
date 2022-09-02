@@ -1,0 +1,126 @@
+.test {
+	width: 1340px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: white;
+}
+
+.title-test {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 72px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.tect-list {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	gap: 30px;
+}
+
+.tect-list .item {
+	background: #f5f5f5;
+	border-radius: 10px;
+	flex-basis: calc(100% / 3 - 60px);
+}
+
+.test-div {
+	padding: 32px 18px;
+}
+
+.item.last-chald {
+	position: absolute;
+	width: 882px;
+	height: 338px;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	flex-grow: 0.52;
+}
+
+.item.last-chald > .test-div {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row-reverse;
+	padding: 32px 18px 56px;
+}
+
+.test-div-last {
+	margin-right: 76px;
+}
+
+.test-img {
+	margin-bottom: 24px;
+}
+
+.test-title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	color: #263238;
+	margin-bottom: 20px;
+}
+
+.test-text {
+	margin-bottom: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #8f95a5;
+}
+
+.test-button {
+	background: var(--titile-btn-color);
+	border-radius: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: var(--white-color);
+	border: 2px solid var(--titile-btn-color);
+	padding: 15px 52px;
+	transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+		border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.test-button:hover,
+.test-button:focus {
+	background-color: var(--white-color);
+	color: var(--titile-btn-color);
+	border-color: var(--titile-btn-color);
+	border: 2px solid var(--titile-btn-color);
+}
+
+.test-button.btn {
+	margin-bottom: 138px;
+}
+
+.test-owerlay-block {
+	position: relative;
+	overflow: hidden;
+}
+
+.test-owerlay-text {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	height: 100%;
+	padding-top: 20px;
+	color: #263238;
+	text-align: center;
+	background-color: rgba(245, 245, 245, 0.78);
+	opacity: 0;
+	transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.test-owerlay-text.shown {
+	opacity: 1;
+}
+

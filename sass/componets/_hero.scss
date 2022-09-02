@@ -1,0 +1,59 @@
+.hero {
+	display: flex;
+}
+
+.animate__animated.animate__bounce {
+	--animate-duration: 2s;
+  }
+
+.img-hero {
+	margin-left: 144px;
+}
+
+.hero-title {
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 1.24;
+	color: var(--black-color);
+	margin-bottom: 40px;
+}
+
+.hero-text {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.5;
+	margin-bottom: 60px;
+}
+
+.hero-btn {
+	width: 426px;
+	height: 100px;
+	border: 0;
+	border-radius: 10px;
+	background-color: var(--titile-btn-color);
+	font-size: 36px;
+	line-height: 1, 5;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--white-color);
+	transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+		border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--white-color);
+	color: var(--titile-btn-color);
+	border-color: var(--titile-btn-color);
+	border: 2px solid var(--titile-btn-color);
+}
+
+.hero-content {
+	position: relative;
+}
+
+.lamp {
+	position: absolute;
+	right: 34px;
+	top: 90px;
+}

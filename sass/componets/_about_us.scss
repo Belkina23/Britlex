@@ -1,0 +1,44 @@
+.about-us {
+	display: flex;
+}
+
+.about-us-title {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 1.5;
+	color: var(--black-color);
+	margin-bottom: 60px;
+}
+
+.about-us-text {
+	font-size: 20px;
+	line-height: 1.8;
+	margin-bottom: 30px;
+}
+
+.about-us-list {
+	list-style: none;
+	display: flex;
+	width: 555px;
+	margin-left: 50px;
+}
+
+.about-us-item {
+	display: flex;
+	flex-direction: column;
+	flex-basis: calc(100% / 3 - 131px);
+	margin-right: 131px;
+	text-align: center;
+}
+
+.item-nomber {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 1.5;
+	color: var(--nomber-about-as-color);
+	margin-bottom: 6px;
+}
+
+.img-about-us {
+	margin-left: 146px;
+}

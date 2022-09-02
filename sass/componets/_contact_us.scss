@@ -1,0 +1,62 @@
+.contact-us {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 145px;
+	justify-content: flex-start;
+}
+
+.contact-us-title {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 1.5;
+	color: var(--black-color);
+	margin-bottom: 60px;
+}
+
+.contact-us-text {
+	width: 655px;
+	margin-bottom: 30px;
+}
+
+.mail-form {
+	display: flex;
+	gap: 30px;
+	margin-left: auto;
+}
+
+input {
+	padding: 20px 30px;
+	width: 425px;
+	outline: none;
+	border: 1px solid #8f95a5;
+	border-radius: 10px;
+	font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+color: #8F95A5;
+
+}
+
+.form-button {
+	padding: 20px 56.04px;
+	width: 312px;
+	height: 70px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	background: #263238;
+	border-radius: 10px;
+	border: 0;
+	transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), border-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover, 
+.form-button:focus {
+	background-color: var(--white-color);
+	color: var(--titile-btn-color);
+	border-color: var(--titile-btn-color);
+	border: 2px solid var(--titile-btn-color);
+  }
