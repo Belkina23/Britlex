@@ -53,7 +53,7 @@
 }
 
 .test-div-last {
-	margin-right: 76px;
+	width: 440px;
 }
 
 .test-img {
@@ -116,11 +116,12 @@
 	color: #263238;
 	text-align: center;
 	background-color: rgba(245, 245, 245, 0.78);
-	opacity: 0;
-	transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1);
+	transform: translateY(-110%);
+	transition: translateY 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.test-owerlay-text.shown {
-	opacity: 1;
+.test-owerlay-text.last {
+	transform: translateX(100%);
 }
+
 
