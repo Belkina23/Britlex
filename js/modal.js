@@ -1,16 +1,29 @@
-(() => {
-    const refs = {
-      openModalBtn: document.querySelector("[data-modal-open]"),
-      closeModalBtn: document.querySelector("[data-modal-close]"),
-      modal: document.querySelector("[data-modal]"),
-    };
-  
-    refs.openModalBtn.addEventListener("click", toggleModal);
-    refs.closeModalBtn.addEventListener("click", toggleModal);
-  
-    function toggleModal() {
-      document .body.classList.toggle("modal-open");
-      refs.modal.classList.toggle("is-hidden");
-      refs.body.classList.toggle("no-scroll");
-    }
-  })();
+const modal = document.getElementById("myModal");
+const btn = document.getElementById("myBtn");
+const span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.body.style.overflow = "hidden";
+  setTimeout(function() {
+    modal.classList.add("show");
+  }, 0);
+};
+
+span.onclick = function() {
+  modal.classList.remove("show");
+  setTimeout(function() {
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
+  }, 300);
+};
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.classList.remove("show");
+    setTimeout(function() {
+      modal.style.display = "none";
+      document.body.style.overflow = "auto";
+    }, 300);
+  }
+};
